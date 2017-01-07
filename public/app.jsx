@@ -1,5 +1,6 @@
 //Every react Component needs a render method
-
+var React = require('react')
+var ReactDOM = require('react-dom')
 //Greeter Message Component
 var GreeterMessage = React.createClass({
   render: function () {
